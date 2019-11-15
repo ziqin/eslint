@@ -43,11 +43,7 @@ module.exports = {
             ]
         ],
         "eslint-plugin/test-case-shorthand-strings": "error",
-        "internal-rules/multiline-comment-style": "error",
-
-        // Ziqin's settings
-        "no-console": "off",
-        "no-for-in-array": "error"
+        "internal-rules/multiline-comment-style": "error"
     },
     overrides: [
         {
