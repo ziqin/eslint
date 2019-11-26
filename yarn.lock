@@ -2700,6 +2700,7 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
     esquery "^1.0.1"
     esutils "^2.0.2"
     file-entry-cache "^5.0.1"
+    flow-bin "^0.112.0"
     functional-red-black-tree "^1.0.1"
     glob-parent "^5.0.0"
     globals "^11.7.0"
@@ -3047,6 +3048,11 @@ flatted@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.1.tgz#69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
   integrity sha512-a1hQMktqW9Nmqr5aktAux3JMNqaucxGcjtjWnZLHX7yyPCmlSV3M54nGYbqT8K+0GhF3NBgmJCc3ma+WOgX8Jg==
+
+flow-bin@^0.112.0:
+  version "0.112.0"
+  resolved "https://registry.npm.taobao.org/flow-bin/download/flow-bin-0.112.0.tgz?cache=0&sync_timestamp=1573607261039&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fflow-bin%2Fdownload%2Fflow-bin-0.112.0.tgz#6a21c31937c4a2f23a750056a364c598a95ea216"
+  integrity sha1-aiHDGTfEovI6dQBWo2TFmKleohY=
 
 flush-write-stream@^1.0.0:
   version "1.1.1"

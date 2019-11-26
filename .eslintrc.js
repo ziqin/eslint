@@ -19,6 +19,7 @@ module.exports = {
         "eslint",
         "plugin:eslint-plugin/recommended"
     ],
+    parser: "./lib/flow-parser.js",
     rules: {
         "eslint-plugin/consistent-output": "error",
         "eslint-plugin/no-deprecated-context-methods": "error",

@@ -1,3 +1,5 @@
+// @flow
+
 /* eslint no-for-in-array: "error" */
 
 /* eslint-disable guard-for-in */

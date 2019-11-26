@@ -58,6 +58,7 @@
     "esquery": "^1.0.1",
     "esutils": "^2.0.2",
     "file-entry-cache": "^5.0.1",
+    "flow-bin": "^0.112.0",
     "functional-red-black-tree": "^1.0.1",
     "glob-parent": "^5.0.0",
     "globals": "^11.7.0",
