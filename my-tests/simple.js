@@ -17,6 +17,8 @@ const a = {
 
 const c = [1, 2, 3];
 
-for (const element in a) {
+// const c = new Array(1, 2, 3);
+
+for (const element in c) {
     console.log(element);
 }

@@ -32,6 +32,7 @@ function badPractice1() {
         console.log(typeof i, i + 0);
     }
 
+    // TODO: False Negative
     for (const i in new Array(4, 5, 6)) {
         console.log(typeof i, i + 0);
     }
@@ -75,11 +76,11 @@ function badPractice3() {
 
 
 // call expression
-function falseNegative1() {
+function functionCall1() {
     const arr1 = [1, 2, 3];
     const arr2 = [4, 5, 6];
 
-    console.log("False Negative 1:");
+    console.log("Function Call 1:");
     for (const i in arr1.concat(arr2)) {
         console.log(typeof i, i + 0);
     }
@@ -91,10 +92,10 @@ function foo() {
     return [1, 2, 3];
 }
 
-function falseNegative2() {
+function functionCall2() {
     const arr = foo();
 
-    console.log("False Negative 2:");
+    console.log("Function Call 2:");
     for (const i in arr) {
         console.log(typeof i, i + 0);
     }
@@ -105,5 +106,5 @@ goodPractice();
 badPractice1();
 badPractice2();
 badPractice3();
-falseNegative1();
-falseNegative2();
+functionCall1();
+functionCall2();
